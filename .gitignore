@@ -1,0 +1,5 @@
+AuthGG.Api/bin/
+AuthGG.Api/obj/
+AuthGG.Web/node_modules/
+AuthGG.Web/dist/
+AuthGG.Web/.env
