@@ -22,10 +22,10 @@ Client Secret chỉ được đặt ở backend, không đưa vào React hoặc 
 
 PowerShell:
 
-```powershell
-$env:Google__ClientSecret = "YOUR_GOOGLE_CLIENT_SECRET"
-dotnet restore .\AuthGG.Api\AuthGG.Api.csproj
-dotnet run --project .\AuthGG.Api
+```gitbash
+export Google__ClientSecret="YOUR_GOOGLE_CLIENT_SECRET"
+dotnet restore ./AuthGG.Api/AuthGG.Api.csproj
+dotnet run --project ./AuthGG.Api
 ```
 
 Backend chạy tại `http://localhost:8000`.
